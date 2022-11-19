@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dog_Fragment"
+    android:background="@color/white_shade">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_filitercity"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="270dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:hint="FILITER CITY NAMES"
+        android:textColorHint="@color/black"
+        app:boxStrokeColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_filitercitynames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/img_box"
+        android:layout_width="50dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="16dp"
+        android:src="@mipmap/box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.389"
+        app:layout_constraintStart_toEndOf="@+id/et_filitercity"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_dog"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="44dp"
+        android:background="@drawable/button"
+        android:text="Dog"
+        app:layout_constraintBottom_toTopOf="@+id/recycler_dog"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_filitercity"
+        app:layout_constraintVertical_bias="0.388" />
+
+    <Button
+        android:id="@+id/btn_cat"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="156dp"
+        android:background="@drawable/button"
+        android:text="cat"
+        app:layout_constraintBottom_toTopOf="@+id/recycler_dog"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_filitercity"
+        app:layout_constraintVertical_bias="0.388" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_dog"
+        android:layout_width="411dp"
+        android:layout_height="550dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

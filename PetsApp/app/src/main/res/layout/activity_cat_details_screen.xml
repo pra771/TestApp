@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_shade"
+    android:orientation="vertical"
+    tools:context=".Cat_details_screen">
+
+    <ImageView
+        android:id="@+id/img_catsidearrow"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:src="@mipmap/sidearrow" />
+
+    <ViewFlipper
+        android:id="@+id/view_flipper"
+        android:layout_width="360dp"
+        android:layout_height="305dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="24dp">
+
+    </ViewFlipper>
+
+    <TextView
+        android:id="@+id/tv_scanex"
+        android:layout_width="103dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        android:text="SEANEX"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/tv_cataboutus"
+        android:layout_width="88dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="24dp"
+        android:text="AboutUs"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tv_catmatters"
+        android:layout_width="344dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="32dp"
+        android:text="@string/about_us"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/btn_catadopme"
+        android:layout_width="344dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button"
+        android:text="Ad.Otp.Me"
+        android:textSize="23dp" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

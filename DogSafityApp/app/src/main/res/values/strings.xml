@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DogSafityApp</string>
+    <string name="adope_one">"Dogs just need you and love that's all "</string>
+    <string name="adope_two">"If I could be half the persion my dog is,I'D be twice the human I Am"</string>
+    <string name="adope_three">It is not what we have in life but you have in life our lives that metters"</string>
+    <string name="tv_register">Register New Account?</string>
+    <string name="title_activity_side_navigation">SideNavigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>

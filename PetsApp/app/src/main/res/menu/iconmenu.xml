@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Dog"
+        android:icon="@mipmap/dog"
+        android:id="@+id/dog_icon"
+        />
+    <item android:title="Cat"
+        android:icon="@mipmap/cat"
+        android:id="@+id/cat_icon"/>
+    <item android:title="History"
+        android:icon="@drawable/ic_baseline_history_24"
+        android:id="@+id/hitory"/>
+    <item android:title="About Us"
+        android:icon="@mipmap/aboutus"
+        android:id="@+id/aboutus"/>
+    <item android:title="Terms and Condictions"
+        android:icon="@mipmap/tc"
+        android:id="@+id/tc"/>
+
+</menu>
